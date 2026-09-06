@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-portfolio-bg: #fffaf5;
+  --color-portfolio-surface: #ffffff;
+  --color-portfolio-surface-soft: #f8f6f2;
+
+  --color-portfolio-ink: #172033;
+  --color-portfolio-muted: #5f6b7a;
+
+  --color-portfolio-orange: #ff6b1a;
+  --color-portfolio-orange-soft: #fff0e7;
+
+  --color-portfolio-teal: #18a7b8;
+  --color-portfolio-teal-soft: #e9f8fa;
+
+  --color-portfolio-border: #e8e5df;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1.5rem;
+  --radius-card-lg: 2rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 10px 40px rgba(23, 32, 51, 0.06);
+  --shadow-card: 0 20px 60px rgba(23, 32, 51, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-portfolio-bg);
+  color: var(--color-portfolio-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--color-portfolio-orange);
+  color: white;
+}
+
+.avatar-blend {
+  -webkit-mask-image: radial-gradient(
+    ellipse 72% 72% at center,
+    black 52%,
+    rgba(0, 0, 0, 0.95) 65%,
+    transparent 88%
+  );
+   mask-image: radial-gradient(
+    ellipse 72% 72% at center,
+    black 52%,
+    rgba(0, 0, 0, 0.95) 65%,
+    transparent 88%
+  );
+}
+
+
