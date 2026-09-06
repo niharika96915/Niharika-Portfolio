@@ -90,9 +90,8 @@ export default function Hero() {
             </a>
 
             <a
-              href="/resume/Niharika-Lakhera-Resume.pdf"
-              target="_blank"
-              rel="noreferrer"
+               href="/resume/Niharika;s Updated Resume.pdf"
+               download="Niharika-Lakhera-Resume.pdf"
               className="inline-flex items-center justify-center rounded-full border border-portfolio-border bg-white px-6 py-3.5 text-sm font-semibold text-portfolio-ink transition duration-300 hover:-translate-y-1 hover:border-portfolio-orange hover:text-portfolio-orange"
             >
               Download Resume
